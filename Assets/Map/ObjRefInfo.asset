@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3321d1a88d91437469464d82b0df7c97, type: 3}
+  m_Name: ObjRefInfo
+  m_EditorClassIdentifier: 
+  gameObjectRef:
+  - {fileID: 1446182240848810, guid: 95c9e4af97342d94293fb34f96ffd52d, type: 2}
+  objRef:
+  - vestices:
+    - {x: -0.5, y: -0.5}
+    - {x: -0.5, y: 0.5}
+    - {x: 0.5, y: 0.5}
+    - {x: 0.5, y: -0.5}
+    uvs:
+    - {x: 0.063576594, y: 0.87509984}
+    - {x: 0.0003828746, y: 0.9373652}
+    - {x: 0.062574305, y: 1.000334}
+    - {x: 0.124952935, y: 0.9379085}
+    matIndex: 0
+  mats:
+  - {fileID: 2100000, guid: 1684796094a851846b0dc42639cb5442, type: 2}
