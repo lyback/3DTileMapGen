@@ -11,7 +11,202 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3628005db92d14cbdcf23942d175e2, type: 3}
   m_Name: MapInfo_1_1
   m_EditorClassIdentifier: 
-  mapIndex: 0
-  posIndex: 
-  objIndexList: 
-  objRotList: 
+  mapIndex: 11
+  posIndex: 2a0300008e0300008f0300005d0300002b030000f80200005c030000c0030000f9020000c802000096020000640200003202000031020000fe01000094020000c70200009502000063020000ff01000030020000c602000062020000660200006802000006020000000200000102000033020000030200000202000034020000040200003502000065020000980200006702000005020000ca02000097020000c9020000fb020000fa0200002c0300005e0300002d03000090030000c1030000c40300009203000060030000c3030000c20300002e030000910300005f030000fc020000cb020000fd0200002f0300006103000093030000c60300009503000063030000c70300009603000097030000c80300009403000032030000310300003003000064030000fe020000ff0200000103000065030000c9030000ce02000033030000cf020000000300009d0200009c0200009b020000cd0200006b0200006a020000690200009a020000cc020000990200003602000037020000380200003902000062030000
+  objInfoList:
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0

@@ -11,7 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3628005db92d14cbdcf23942d175e2, type: 3}
   m_Name: MapInfo_4_0
   m_EditorClassIdentifier: 
-  mapIndex: 0
-  posIndex: 
-  objIndexList: 
-  objRotList: 
+  mapIndex: 4
+  posIndex: 310000006300000030000000
+  objInfoList:
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0

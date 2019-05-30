@@ -11,7 +11,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3628005db92d14cbdcf23942d175e2, type: 3}
   m_Name: MapInfo_2_3
   m_EditorClassIdentifier: 
-  mapIndex: 0
-  posIndex: 
-  objIndexList: 
-  objRotList: 
+  mapIndex: 32
+  posIndex: 5107000088060000f005000055060000ed060000ee060000f0060000be0600005a060000f5050000f4050000890600005207000089070000c1060000280600002606000056060000eb0600001d07000020070000f805000024060000bc0600008307000087070000580600001f07000053070000240700008f060000b6070000550700008807000025070000bb070000
+  objInfoList:
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0
+  - objIndex: 1
+    objRotY: 0

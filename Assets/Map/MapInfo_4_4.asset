@@ -12,6 +12,17 @@ MonoBehaviour:
   m_Name: MapInfo_4_4
   m_EditorClassIdentifier: 
   mapIndex: 44
-  posIndex: c3090000c20900009109000090090000
-  objIndexList: 00000000000000000000000000000000
-  objRotList: 00000000000000000000000000000000
+  posIndex: c3090000c2090000c109000090090000910900005f090000
+  objInfoList:
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0
+  - objIndex: 0
+    objRotY: 0

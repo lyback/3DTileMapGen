@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObjectRef:
   - {fileID: 1446182240848810, guid: 95c9e4af97342d94293fb34f96ffd52d, type: 2}
+  - {fileID: 1865137569922152, guid: de71e09e86c54b54cba57bdcc42b8351, type: 2}
   objRef:
   - vestices:
     - {x: -0.5, y: -0.5}
@@ -24,6 +25,17 @@ MonoBehaviour:
     - {x: 0.0003828746, y: 0.9373652}
     - {x: 0.062574305, y: 1.000334}
     - {x: 0.124952935, y: 0.9379085}
+    matIndex: 0
+  - vestices:
+    - {x: -0.5, y: -0.5}
+    - {x: -0.5, y: 0.5}
+    - {x: 0.5, y: 0.5}
+    - {x: 0.5, y: -0.5}
+    uvs:
+    - {x: 0.62545377, y: 0.93753624}
+    - {x: 0.687735, y: 1.0002077}
+    - {x: 0.7502526, y: 0.9376577}
+    - {x: 0.6877681, y: 0.87491775}
     matIndex: 0
   mats:
   - {fileID: 2100000, guid: 1684796094a851846b0dc42639cb5442, type: 2}

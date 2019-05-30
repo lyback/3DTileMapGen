@@ -37,8 +37,8 @@ public class ExportMap : Editor
                 mapList[w, h] = GetStriptableObject<TileMapInfo>(string.Format("Assets/Map/MapInfo_{0}_{1}.asset", w, h));
                 mapList[w, h].mapIndex = h * map_w + w;
                 mapList[w, h].posIndex = new List<int>();
-                mapList[w, h].objIndexList = new List<int>();
-                mapList[w, h].objRotList = new List<int>();
+                mapList[w, h].posY = new List<double>();
+                mapList[w, h].objInfoList = new List<TileMapObjInfo>();
             }
         }
 
@@ -94,6 +94,7 @@ public class ExportMap : Editor
 			{
 				int objID = System.Convert.ToInt32(myMapParts[0]);
 				int pX = System.Convert.ToInt32(myMapParts[1])-500+globalGridSizeX/2 - 1;
+				double pY = System.Convert.ToDouble(myMapParts[2]);
 				int pZ = System.Convert.ToInt32(myMapParts[3])-500+globalGridSizeZ/2 - 1;
 				int rY = System.Convert.ToInt32(myMapParts[5]);
 				string staticInfo = myMapParts[7];//1:static
@@ -101,9 +102,32 @@ public class ExportMap : Editor
 				int index_x = Mathf.FloorToInt(pX/map_w); 
 				int index_z = Mathf.FloorToInt(pZ/map_h);
 				var _mapinfo = mapList[index_x,index_z];
-				_mapinfo.posIndex.Add(pZ*globalGridSizeX + pX);
-				_mapinfo.objRotList.Add(rY);
-				_mapinfo.objIndexList.Add(objID);
+                int _posIndex = pZ*globalGridSizeX + pX;
+                if (_mapinfo.posIndex.Contains(_posIndex))
+                {
+                    Debug.LogWarningFormat("有地块重叠：X:{0},Z:{1},会取Y比较大的地块",System.Convert.ToInt32(myMapParts[1]),System.Convert.ToInt32(myMapParts[3]));
+                    int index = 0;
+                    for (int j = 0; j < _mapinfo.posIndex.Count; j++)
+                    {
+                        if (_mapinfo.posIndex[j] == _posIndex)
+                        {
+                            index = j;
+                            break;
+                        }
+                    }
+                    if (_mapinfo.posY[index]<pY)
+                    {
+                        _mapinfo.posIndex[index] = _posIndex;
+                        _mapinfo.posY[index] = pY;
+                        _mapinfo.objInfoList[index] = new TileMapObjInfo(objID,rY);
+                    }
+                }
+                else
+                {
+                    _mapinfo.posIndex.Add(_posIndex);
+                    _mapinfo.posY.Add(pY);
+                    _mapinfo.objInfoList.Add(new TileMapObjInfo(objID,rY));
+                }
 				
         		UnityEditor.EditorUtility.SetDirty(_mapinfo);
 			}
